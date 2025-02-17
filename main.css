@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,800&display=swap");
+:root {
+  --background2: #bdc69c;
+  --background4: #fefae0;
+  --background6: #abb58a;
+  --background7: #fefae0;
+  --background8: #f4efeb;
+}
+
+body{
+  background-color: #eae1da;
+}
+
+.div1 {
+  background-color: var(--background6);
+}
+
+.div2 {
+  background-color: var(--background7);
+}
+
+.div3 {
+  background-color: var(--background8);
+}
+
+.div4 {
+  background-color: var(--background4);
+}
+
+.div5 {
+  background-color: var(--background8);
+}
+
+.div6 {
+  background-color: var(--background2);
+}
+
+.div8 {
+  background-color: var(--background2);
+}
+
+.about- {
+  padding: 5px;
+}
+
+.front-photo {
+  filter: brightness(60%);
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#footer {
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 1.5rem;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.past-experience {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(222, 213, 200);
+  gap: 20px;
+}
+
+.past-experience div {
+  width: 100%;
+}
+
+.past-heading {
+  font-size: 2rem;
+  margin-left: 15%;
+  color: brown;
+}
+
+.reliance {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  flex-shrink: 1;
+  gap: 3%;
+  margin-left: 15%;
+  font-family: "Bodoni Moda", serif;
+}
+
+.reliance-ol {
+  font-family: "Poppins", serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.reliance-heading-- {
+  font-family: "Poppins", serif;
+  margin-top: 2%;
+}
+
+.reliance strong {
+  font-size: 1rem;
+}
+.section-2 {
+  margin-left: 8%;
+  object-fit: cover;
+}
+
+.section-2 img {
+  background: rgba(0, 0, 0, 0.4);
+  filter: brightness(60%);
+  height: 100%;
+}
+
+.reliance p {
+  font-family: "Poppins", serif;
+  margin-bottom: 5%;
+}
+
+@media screen and (max-width: 767px) {
+  .past-experience{
+    flex-direction: column;
+  }
+}
